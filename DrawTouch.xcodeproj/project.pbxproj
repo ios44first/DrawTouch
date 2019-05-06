@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04103C401B21967E00A7641F /* CIImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04103C3F1B21967E00A7641F /* CIImageViewController.m */; };
+		04103C421B21971200A7641F /* me.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04103C411B21971200A7641F /* me.jpg */; };
+		04103C441B219A8400A7641F /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04103C431B219A8400A7641F /* CoreImage.framework */; };
+		04692EA91A2D70BC00846B5B /* pen.png in Resources */ = {isa = PBXBuildFile; fileRef = 04692EA81A2D70BC00846B5B /* pen.png */; };
+		04692EAB1A2D7FD000846B5B /* colors@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04692EAA1A2D7FD000846B5B /* colors@2x.png */; };
+		04692EAF1A2D92A900846B5B /* more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04692EAE1A2D92A900846B5B /* more@2x.png */; };
+		04692EB21A2DAB4400846B5B /* ColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 04692EB11A2DAB4400846B5B /* ColorPicker.m */; };
+		04692EB41A2DAB5300846B5B /* ColorPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04692EB31A2DAB5300846B5B /* ColorPicker.xib */; };
+		04692EB71A2DABF900846B5B /* 全色.png in Resources */ = {isa = PBXBuildFile; fileRef = 04692EB51A2DABF900846B5B /* 全色.png */; };
+		046B716F1A2C792B006BF201 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 046B716E1A2C792B006BF201 /* Icon.png */; };
+		046B71711A2C7B1E006BF201 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046B71701A2C7B1E006BF201 /* Media.xcassets */; };
+		0F2EAE431670354500EF84B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2EAE421670354500EF84B1 /* UIKit.framework */; };
+		0F2EAE451670354500EF84B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2EAE441670354500EF84B1 /* Foundation.framework */; };
+		0F2EAE471670354500EF84B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2EAE461670354500EF84B1 /* CoreGraphics.framework */; };
+		0F2EAE4D1670354500EF84B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F2EAE4B1670354500EF84B1 /* InfoPlist.strings */; };
+		0F2EAE4F1670354500EF84B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2EAE4E1670354500EF84B1 /* main.m */; };
+		0F2EAE531670354500EF84B1 /* MyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2EAE521670354500EF84B1 /* MyAppDelegate.m */; };
+		0F2EAE5B1670359D00EF84B1 /* rootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2EAE5A1670359D00EF84B1 /* rootView.m */; };
+		0F2EAE61167036F100EF84B1 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2EAE60167036F100EF84B1 /* DrawView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04103C3E1B21967E00A7641F /* CIImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIImageViewController.h; sourceTree = "<group>"; };
+		04103C3F1B21967E00A7641F /* CIImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIImageViewController.m; sourceTree = "<group>"; };
+		04103C411B21971200A7641F /* me.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = me.jpg; sourceTree = "<group>"; };
+		04103C431B219A8400A7641F /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		04692EA81A2D70BC00846B5B /* pen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pen.png; sourceTree = "<group>"; };
+		04692EAA1A2D7FD000846B5B /* colors@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "colors@2x.png"; sourceTree = "<group>"; };
+		04692EAE1A2D92A900846B5B /* more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more@2x.png"; sourceTree = "<group>"; };
+		04692EB01A2DAB4400846B5B /* ColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPicker.h; sourceTree = "<group>"; };
+		04692EB11A2DAB4400846B5B /* ColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPicker.m; sourceTree = "<group>"; };
+		04692EB31A2DAB5300846B5B /* ColorPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorPicker.xib; sourceTree = "<group>"; };
+		04692EB51A2DABF900846B5B /* 全色.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "全色.png"; sourceTree = "<group>"; };
+		046B716E1A2C792B006BF201 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		046B71701A2C7B1E006BF201 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		0F2EAE3E1670354500EF84B1 /* DrawTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F2EAE421670354500EF84B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F2EAE441670354500EF84B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F2EAE461670354500EF84B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F2EAE4A1670354500EF84B1 /* DrawTouch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrawTouch-Info.plist"; sourceTree = "<group>"; };
+		0F2EAE4C1670354500EF84B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F2EAE4E1670354500EF84B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F2EAE501670354500EF84B1 /* DrawTouch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrawTouch-Prefix.pch"; sourceTree = "<group>"; };
+		0F2EAE511670354500EF84B1 /* MyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAppDelegate.h; sourceTree = "<group>"; };
+		0F2EAE521670354500EF84B1 /* MyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAppDelegate.m; sourceTree = "<group>"; };
+		0F2EAE591670359D00EF84B1 /* rootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rootView.h; sourceTree = "<group>"; };
+		0F2EAE5A1670359D00EF84B1 /* rootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rootView.m; sourceTree = "<group>"; };
+		0F2EAE5F167036F100EF84B1 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		0F2EAE60167036F100EF84B1 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F2EAE3B1670354500EF84B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04103C441B219A8400A7641F /* CoreImage.framework in Frameworks */,
+				0F2EAE431670354500EF84B1 /* UIKit.framework in Frameworks */,
+				0F2EAE451670354500EF84B1 /* Foundation.framework in Frameworks */,
+				0F2EAE471670354500EF84B1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F2EAE331670354500EF84B1 = {
+			isa = PBXGroup;
+			children = (
+				0F2EAE481670354500EF84B1 /* DrawTouch */,
+				0F2EAE411670354500EF84B1 /* Frameworks */,
+				0F2EAE3F1670354500EF84B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F2EAE3F1670354500EF84B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F2EAE3E1670354500EF84B1 /* DrawTouch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F2EAE411670354500EF84B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04103C431B219A8400A7641F /* CoreImage.framework */,
+				0F2EAE421670354500EF84B1 /* UIKit.framework */,
+				0F2EAE441670354500EF84B1 /* Foundation.framework */,
+				0F2EAE461670354500EF84B1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F2EAE481670354500EF84B1 /* DrawTouch */ = {
+			isa = PBXGroup;
+			children = (
+				0F2EAE511670354500EF84B1 /* MyAppDelegate.h */,
+				0F2EAE521670354500EF84B1 /* MyAppDelegate.m */,
+				0F2EAE491670354500EF84B1 /* Supporting Files */,
+				0F2EAE591670359D00EF84B1 /* rootView.h */,
+				0F2EAE5A1670359D00EF84B1 /* rootView.m */,
+				0F2EAE5F167036F100EF84B1 /* DrawView.h */,
+				0F2EAE60167036F100EF84B1 /* DrawView.m */,
+				04692EB01A2DAB4400846B5B /* ColorPicker.h */,
+				04692EB11A2DAB4400846B5B /* ColorPicker.m */,
+				04692EB31A2DAB5300846B5B /* ColorPicker.xib */,
+				04103C3E1B21967E00A7641F /* CIImageViewController.h */,
+				04103C3F1B21967E00A7641F /* CIImageViewController.m */,
+			);
+			path = DrawTouch;
+			sourceTree = "<group>";
+		};
+		0F2EAE491670354500EF84B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04103C411B21971200A7641F /* me.jpg */,
+				04692EB51A2DABF900846B5B /* 全色.png */,
+				04692EAE1A2D92A900846B5B /* more@2x.png */,
+				04692EA81A2D70BC00846B5B /* pen.png */,
+				04692EAA1A2D7FD000846B5B /* colors@2x.png */,
+				046B716E1A2C792B006BF201 /* Icon.png */,
+				0F2EAE4A1670354500EF84B1 /* DrawTouch-Info.plist */,
+				0F2EAE4B1670354500EF84B1 /* InfoPlist.strings */,
+				0F2EAE4E1670354500EF84B1 /* main.m */,
+				0F2EAE501670354500EF84B1 /* DrawTouch-Prefix.pch */,
+				046B71701A2C7B1E006BF201 /* Media.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F2EAE3D1670354500EF84B1 /* DrawTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F2EAE561670354500EF84B1 /* Build configuration list for PBXNativeTarget "DrawTouch" */;
+			buildPhases = (
+				0F2EAE3A1670354500EF84B1 /* Sources */,
+				0F2EAE3B1670354500EF84B1 /* Frameworks */,
+				0F2EAE3C1670354500EF84B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawTouch;
+			productName = DrawTouch;
+			productReference = 0F2EAE3E1670354500EF84B1 /* DrawTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F2EAE351670354500EF84B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				TargetAttributes = {
+					0F2EAE3D1670354500EF84B1 = {
+						DevelopmentTeam = 3YRDNWTN96;
+					};
+				};
+			};
+			buildConfigurationList = 0F2EAE381670354500EF84B1 /* Build configuration list for PBXProject "DrawTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F2EAE331670354500EF84B1;
+			productRefGroup = 0F2EAE3F1670354500EF84B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F2EAE3D1670354500EF84B1 /* DrawTouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F2EAE3C1670354500EF84B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04692EAB1A2D7FD000846B5B /* colors@2x.png in Resources */,
+				04692EB41A2DAB5300846B5B /* ColorPicker.xib in Resources */,
+				04103C421B21971200A7641F /* me.jpg in Resources */,
+				046B71711A2C7B1E006BF201 /* Media.xcassets in Resources */,
+				046B716F1A2C792B006BF201 /* Icon.png in Resources */,
+				04692EAF1A2D92A900846B5B /* more@2x.png in Resources */,
+				04692EB71A2DABF900846B5B /* 全色.png in Resources */,
+				0F2EAE4D1670354500EF84B1 /* InfoPlist.strings in Resources */,
+				04692EA91A2D70BC00846B5B /* pen.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F2EAE3A1670354500EF84B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04103C401B21967E00A7641F /* CIImageViewController.m in Sources */,
+				0F2EAE4F1670354500EF84B1 /* main.m in Sources */,
+				0F2EAE531670354500EF84B1 /* MyAppDelegate.m in Sources */,
+				0F2EAE5B1670359D00EF84B1 /* rootView.m in Sources */,
+				0F2EAE61167036F100EF84B1 /* DrawView.m in Sources */,
+				04692EB21A2DAB4400846B5B /* ColorPicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F2EAE4B1670354500EF84B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F2EAE4C1670354500EF84B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F2EAE541670354500EF84B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "4fc9b87f-873b-475c-ae09-9d1170b8a718";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F2EAE551670354500EF84B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "4fc9b87f-873b-475c-ae09-9d1170b8a718";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F2EAE571670354500EF84B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawTouch/DrawTouch-Prefix.pch";
+				INFOPLIST_FILE = "DrawTouch/DrawTouch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4fc9b87f-873b-475c-ae09-9d1170b8a718";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0F2EAE581670354500EF84B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawTouch/DrawTouch-Prefix.pch";
+				INFOPLIST_FILE = "DrawTouch/DrawTouch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4fc9b87f-873b-475c-ae09-9d1170b8a718";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F2EAE381670354500EF84B1 /* Build configuration list for PBXProject "DrawTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F2EAE541670354500EF84B1 /* Debug */,
+				0F2EAE551670354500EF84B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F2EAE561670354500EF84B1 /* Build configuration list for PBXNativeTarget "DrawTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F2EAE571670354500EF84B1 /* Debug */,
+				0F2EAE581670354500EF84B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F2EAE351670354500EF84B1 /* Project object */;
+}

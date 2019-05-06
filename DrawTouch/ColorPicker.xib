@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ColorPicker">
+            <rect key="frame" x="0.0" y="0.0" width="250" height="330"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="全色.png" translatesAutoresizingMaskIntoConstraints="NO" id="tOq-V2-BRj">
+                    <rect key="frame" x="100" y="10" width="135" height="135"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="选色器" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cg6-7p-yDk">
+                    <rect key="frame" x="22" y="21" width="61" height="21"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="127" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7VV-XX-6vb">
+                    <rect key="frame" x="20" y="169" width="45" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="wS4-bS-54y"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="127" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K9S-Ob-7kN">
+                    <rect key="frame" x="20" y="207" width="45" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="M0L-iv-ZnS"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="127" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qCe-NE-yeS">
+                    <rect key="frame" x="20" y="245" width="45" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="JZv-wj-QOy"/>
+                    </connections>
+                </textField>
+                <slider opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="WVI-eE-uW1">
+                    <rect key="frame" x="71" y="168" width="163" height="31"/>
+                    <connections>
+                        <action selector="colorValueChanged:" destination="iN0-l3-epB" eventType="valueChanged" id="cYv-uv-T5d"/>
+                    </connections>
+                </slider>
+                <slider opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="FoR-yq-HrG">
+                    <rect key="frame" x="71" y="206" width="163" height="31"/>
+                    <connections>
+                        <action selector="colorValueChanged:" destination="iN0-l3-epB" eventType="valueChanged" id="V2O-yn-2dq"/>
+                    </connections>
+                </slider>
+                <slider opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="bTk-qg-Qf9">
+                    <rect key="frame" x="71" y="244" width="163" height="31"/>
+                    <connections>
+                        <action selector="colorValueChanged:" destination="iN0-l3-epB" eventType="valueChanged" id="lBv-Vy-xen"/>
+                    </connections>
+                </slider>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="moF-CO-aGM">
+                    <rect key="frame" x="166" y="295" width="46" height="30"/>
+                    <state key="normal" title="取 消">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="9Sp-kk-aSd"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hsI-Jm-MXY">
+                    <rect key="frame" x="37" y="295" width="46" height="30"/>
+                    <state key="normal" title="确 定">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="D8G-ye-NvM"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rke-Zg-IFd">
+                    <rect key="frame" x="20" y="80" width="65" height="65"/>
+                    <color key="backgroundColor" red="0.5" green="0.49803921568627452" blue="0.49803921568627452" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="blueInput" destination="qCe-NE-yeS" id="1bO-LY-UP1"/>
+                <outlet property="blueSlider" destination="bTk-qg-Qf9" id="vjM-EI-52c"/>
+                <outlet property="greenInput" destination="K9S-Ob-7kN" id="Fhy-Ae-uWJ"/>
+                <outlet property="greenSlider" destination="FoR-yq-HrG" id="d26-Df-J6E"/>
+                <outlet property="pickerView" destination="tOq-V2-BRj" id="pla-Rf-RN4"/>
+                <outlet property="redInput" destination="7VV-XX-6vb" id="toH-TF-uaV"/>
+                <outlet property="redSlider" destination="WVI-eE-uW1" id="apr-6p-0dt"/>
+                <outlet property="resultView" destination="Rke-Zg-IFd" id="AUD-sZ-BD7"/>
+            </connections>
+            <point key="canvasLocation" x="616" y="250"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="全色.png" width="135" height="135"/>
+    </resources>
+</document>
